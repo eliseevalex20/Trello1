@@ -1,0 +1,47 @@
+
+.wrap{
+    background:greenyellow;
+    min-height: 200px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.container1{
+    background-color:greenyellow;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.draggable1{
+    margin-bottom: 50px;
+     
+}
+.draggable{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.draggable.dragging{
+    opacity: .2;
+}
+.draggable1.dragging1{
+    opacity: .2;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background: red;
+}
