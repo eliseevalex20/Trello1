@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*Container*/
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container__work{
+    background: linear-gradient(180deg, #42548e 0%, #6b668c 100%);
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+/*header*/
+
+.header {
+    width: 100%;
+    padding: 15px ;
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_1 {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn_1:hover {
+    text-decoration: underline;
+}
+
+.btn_2 {
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #0079bf;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/*Intro*/
+
+.intro { 
+    background: linear-gradient(135deg, #0079bf, #5067c5);   
+}
+
+.intro__inner {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 100px 15px 0;
+    width: 100%;  
+}
+
+.col__1 {
+    max-width: 40%;
+}
+
+.intro__title{
+    color:#fff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 48px;
+    margin: 0px 0px 8px
+}
+
+.intro__text{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+
+.col__2{
+    margin-left: 100px;
+}
+.img__intro{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*email*/
+
+.email {
+    width: 100%;
+    display: flex;
+    padding-bottom: 80px;
+}
+   
+.email__input {
+    width: 40%;
+    height: 55px;
+    background: #fff;
+    border: 2px solid #e7e7e7;
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 43px;
+    border-radius: 4px;
+}
+
+.email__input:focus {
+    outline: 0;
+    border-color:  #5067c5;
+}
+
+
+.email__button {
+    width:40%;
+    height: 55px;
+    background-color: #61BD4F;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 43px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.email__button:hover {
+    background-color: rgb(62, 145, 45);
+}
+
+.email__button:focus {
+    outline: 0;
+}
+
+
+/*team*/
+
+.inner {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 100%;  
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+.col{
+    width: 50%;
+}
+
+
+.info__title{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.info__text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D; 
+}
+
+.work__button{
+    background-color: #6D8EA2;
+    border: 0;
+}
+
+.work__button:hover {
+    background-color:  rgb(82, 107, 122);
+}
+
+.work__button:focus {
+    outline: 0;
+}
+
+.img__team{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* information */
+.img__inf{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* robots__work */
+
+.robots_title{
+    font-size: 30px;
+}
+
+.img__robots{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-left: 60px;
+}
+
+/* robots__slider */
+
+.slider__text{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 540px;
+    
+}
+.title__slider{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.slider__r{
+    display: flex;
+    justify-content: center;
+}
+/* opportunities */
+.opport__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.opport__item{
+    width: 31%;
+   
+}
+
+.img__content{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.text__content{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.text__content h5{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 15px;
+}
+.opport__button {
+    padding: 0 15px;
+    height: 44px;
+    background-color: #6D8EA2;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 43px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.opport__button:hover {
+    background-color:  rgb(82, 107, 122);
+}
+
+/* work__smarted */
+.work__started__inner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.text__work__start{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#fff;
+    margin-bottom: 25px;
+}
+
+
+.text__work__start h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.work__smarted__button{
+    height: 44px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #212529;
+    background-color: #EBECF0;
+    margin-top: 25px;
+}
+
+.work__smarted__button:hover {
+    background-color:  rgb(185, 186, 190);
+}
+
+.second__child{
+    margin: 0 15px;
+}
+
+/* get__started */
+.get__started{
+    background: url("https://placehold.it/2000x393") center no-repeat;
+    background-size: cover;
+}
+
+.get__started__button {
+    height: 44px;
+    background-color: #61BD4F;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 43px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.get__started__button:hover {
+    background-color: rgb(62, 145, 45);
+}
+
+.get__started__button:focus {
+    outline: 0;
+}
+
+.get__started__text{
+    padding-bottom: 60px;
+}
+
+/* footer */
+.footer{
+    font-size: 16px;
+    margin: 64px 14px;
+    text-align: center;
+}
+
+.language__select{
+    margin-bottom: 15px;
+}
+
+.list__item{
+    color: #8993A4;
+    text-decoration: underline;
+    padding: 0 10px ;
+}
+
+.footer__img{
+    margin: 20px 0;
+}
+
+
+.copyrighting{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+}
