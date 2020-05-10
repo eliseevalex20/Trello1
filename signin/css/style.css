@@ -1,0 +1,167 @@
+.page__signin{
+    background: #f9fafc;
+}
+
+.logo__img{
+    display: flex;
+    height: 43px;
+    margin: 40px auto;
+}
+
+.inner h1{
+    width: 100%;
+    overflow: visible;
+    text-align: center;
+    color: #5E6C84;
+    font-size: 16px;
+    margin: 30px 0;
+}
+form{
+    display: block;
+}
+.wrapper{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.signin__form{
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
+.email{
+    width: 100%;
+    font-size: 14px;
+    background-color: #FAFBFC;
+    border: 2px solid #DFE1E6;
+    border-radius: 5px;
+    height: 44px;
+}
+.condition{
+    margin: 20px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5E6C84;
+}
+.condition a{
+    color:#0052CC;
+    text-decoration: none;
+}
+.submit{
+    width: 100%;
+    background: #E2E4E6;
+    color: #5E6C84;
+    cursor: default;
+    border-radius: 5px;
+    padding: 9px 13px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 0px;
+}
+.or{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: #5E6C84;
+    line-height: 16px;
+}
+.btn{
+    background: #fff;
+    color: rgba(0,0,0,0.54);
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: block;
+}
+.google__icon{
+    background: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/c/p/res/images/8215f66…/sign-in-with-google.svg) 0 50% no-repeat;
+}
+.label__google, .label__microsoft{
+    display: inline-block;
+    font-size: 14px;
+    padding: 11px;
+    color: #505f79;
+    height: 32px;
+    font-weight: bold;
+}
+.link a{
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color:#0052CC;
+    margin-top: 25px;
+}
+footer{
+    margin: 40px 10px;
+    text-align: center;
+}
+.bcg{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.left__bcg {
+    position: fixed;
+    width: 400px;
+    bottom: 0;
+    left: 0;
+    max-width: 30%;
+}
+.right__bcg{
+    position: fixed;
+    width: 400px;
+    bottom: 0;
+    right: 0;
+    max-width: 30%;
+}
+.lang{
+    margin: 0 0 12px;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+}
+#language{
+    color: #959DA1;
+    background: none;
+    border: 2px solid #EDEFF0;
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+    padding: 5px;
+}
+footer hr{
+    max-width: 400px;
+    margin: 25px auto;
+}
+.logo_atl{
+    margin-bottom: 20px;
+    width: 150px;
+    display: inline-block;
+
+}
+.links{
+    
+    max-width: 45%;
+    list-style: none;
+    margin-left: 25%;
+    padding: 0;
+    text-align: center;
+}
+.links__item{
+    display: inline-block;
+    margin: 0 20px;
+}
+.item__link{
+    text-decoration: none;
+    color: #5E6C84;
+}
