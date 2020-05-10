@@ -1,8 +1,8 @@
-/*const sortList = document.querySelector('.sortable__list')
+const sortList = document.querySelector('.sortable__list')
 
 sortList.addEventListener('dragstart', e => {
     const target = e.target;
-
+    
     e.dataTransfer.setData('html', target.outerHTML)
     target.parentElement.classList.add('hidden');
 });
@@ -41,7 +41,9 @@ sortList.addEventListener('dragend', e =>{
     sortList.removeChild(placeholder);
     hiddenElem.classList.remove('hidden');
 });
-*/
+
+
+
 const draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
 
