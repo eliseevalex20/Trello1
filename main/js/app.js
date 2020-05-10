@@ -1,4 +1,6 @@
-const sortList = document.querySelector('.sortable__list')
+// Перетаскивание досок 
+
+/*const sortList = document.querySelector('.sortable__list')
 
 sortList.addEventListener('dragstart', e => {
     const target = e.target;
@@ -42,7 +44,9 @@ sortList.addEventListener('dragend', e =>{
     hiddenElem.classList.remove('hidden');
 });
 
+*/
 
+//Перетаскивание ссылок в досках и между ними
 
 const draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
